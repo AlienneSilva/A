@@ -1,6 +1,6 @@
 import { Cliente } from '../entity/Cliente';
 import { Request, Response } from "express";
-import { getRepository } from "typeorm"
+import { getRepository } from "typeorm";
 
 
 export const getCliente = async (request: Request, response: Response) => 
